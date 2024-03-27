@@ -26,7 +26,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 	curr = *tree;
 	while (curr)
 	{
-		if (value >= curr->n && curr->right == NULL)
+		if (value > curr->n && curr->right == NULL)
 		{
 			curr->right = new_node;
 			new_node->parent = curr;
