@@ -29,7 +29,7 @@ int is_valid_bst(const binary_tree_t *tree,
 			free(queue);
 			return (0);
 		}
-		if (curr->n < parent->n && direction  == 2)
+		if (curr->n <= parent->n && direction  == 2)
 		{
 			free(queue);
 			return (0);
