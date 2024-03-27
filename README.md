@@ -7,6 +7,7 @@
 - What are the depth, the height, the size of a binary tree
 - What are the different traversal methods to go through a binary tree
 - What is a complete, a full, a perfect, a balan
+-------------------------------------------------
 **Resources**
 *Read or watch:*
 - 
@@ -15,3 +16,11 @@
 - [Tree Traversal](https://intranet.alxswe.com/rltoken/z6ZaXr_RxwE5nTHAUx_dfQ)
 - [Binary Search Tree](https://intranet.alxswe.com/rltoken/qO5dBlMnYJzbaWG3xVpcnQ)
 - [Data structures: Binary Tree](https://intranet.alxswe.com/rltoken/BeyJ2gjlE7_djwRiDyeHig)
+- [Tree Traversal by Abdul on Youtube](https://www.youtube.com/watch?v=xo41NfT8218)
+- [Rotating Binary Tree](https://www.youtube.com/watch?v=pMfoyc6zmZo&t=65s)
+--------------------------
+*quick notes on binary trees*
+- _Height - length of the path from root to the furthest leaf node.
+- The depth of a node is the length of the path from the root to that node. The depth of the root node is 0.
+- The size of the tree is the total number of nodes in the tree.
+- Balance factor - height of subtree rooted at its left child minus height of subtree rooted at its right child_
